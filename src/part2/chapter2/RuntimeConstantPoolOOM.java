@@ -1,6 +1,4 @@
-package chapter2;
-
-import com.sun.scenario.effect.impl.state.LinearConvolveRenderState;
+package part2.chapter2;
 
 import java.util.ArrayList;
 import java.util.List;

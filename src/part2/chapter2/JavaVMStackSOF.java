@@ -1,4 +1,4 @@
-package chapter2;
+package part2.chapter2;
 
 /**
  * Created by xdcao on 2017/4/23.
