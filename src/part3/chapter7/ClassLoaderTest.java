@@ -14,7 +14,7 @@ public class ClassLoaderTest {
             @Override
             public Class<?> loadClass(String name) throws ClassNotFoundException {
                 try{
-                    String filename=name.substring(name.lastIndexOf(".")+1)+",class";
+                    String filename=name.substring(name.lastIndexOf(".")+1)+".class";
                     InputStream is=getClass().getResourceAsStream(filename);
                     if (is==null){
                         return super.loadClass(name);
@@ -32,6 +32,7 @@ public class ClassLoaderTest {
 
         Object obj=myLoader.loadClass("part3.chapter7.ClassLoaderTest").newInstance();
         System.out.println(obj.getClass());
+        System.out.println(obj.getClass().getClassLoader());
         System.out.println(obj instanceof part3.chapter7.ClassLoaderTest);
 
     }

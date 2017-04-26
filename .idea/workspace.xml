@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fe8c4bf-b6bc-469f-8f78-be10707af925" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part3/chapter7/ClassLoaderTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/part3/chapter8/chapter8.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/part3/chapter7/chapter7.md" afterPath="$PROJECT_DIR$/src/part3/chapter7/chapter7.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/part3/chapter7/ClassLoaderTest.java" afterPath="$PROJECT_DIR$/src/part3/chapter7/ClassLoaderTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,12 +17,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="chapter7.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chapter7.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/part3/chapter7/chapter7.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
+              <first_editor relative-caret-position="95">
+                <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chapter8.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/part3/chapter8/chapter8.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
               <first_editor relative-caret-position="664">
-                <caret line="178" column="13" lean-forward="false" selection-start-line="178" selection-start-column="13" selection-end-line="178" selection-end-column="13" />
+                <caret line="109" column="14" lean-forward="false" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -33,8 +46,8 @@
       <file leaf-file-name="ClassLoaderTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/part3/chapter7/ClassLoaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="17" column="71" lean-forward="true" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+            <state relative-caret-position="380">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#247#958#0" expanded="true" />
@@ -92,8 +105,9 @@
         <option value="$PROJECT_DIR$/src/part3/chapter7/ConstClass.java" />
         <option value="$PROJECT_DIR$/src/part3/chapter7/NotInitialization.java" />
         <option value="$PROJECT_DIR$/src/part3/chapter7/DeadLoopClass.java" />
-        <option value="$PROJECT_DIR$/src/part3/chapter7/ClassLoaderTest.java" />
         <option value="$PROJECT_DIR$/src/part3/chapter7/chapter7.md" />
+        <option value="$PROJECT_DIR$/src/part3/chapter7/ClassLoaderTest.java" />
+        <option value="$PROJECT_DIR$/src/part3/chapter8/chapter8.md" />
       </list>
     </option>
   </component>
@@ -156,7 +170,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chapter7" />
+              <option name="myItemId" value="chapter8" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -768,7 +782,7 @@
       <option name="presentableId" value="Default" />
       <updated>1492870724225</updated>
       <workItem from="1492870727841" duration="6090000" />
-      <workItem from="1492952417700" duration="49137000" />
+      <workItem from="1492952417700" duration="57673000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1492870933932</created>
@@ -819,11 +833,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493122618757</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="chapter 7 over">
+      <created>1493133638921</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1493133638921</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55227000" />
+    <option name="totallyTimeSpent" value="63763000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -884,7 +905,8 @@
     <MESSAGE value="chapter 3 over" />
     <MESSAGE value="chapter 6 over" />
     <MESSAGE value="chapter 7.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 7.4" />
+    <MESSAGE value="chapter 7 over" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 7 over" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1079,10 +1101,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/part3/chapter7/chapter7.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/part3/chapter7/ClassLoaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" column="71" lean-forward="true" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+        <state relative-caret-position="380">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#247#958#0" expanded="true" />
@@ -1091,11 +1124,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/part3/chapter7/chapter7.md">
+    <entry file="file://$PROJECT_DIR$/src/part3/chapter8/chapter8.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
+        <state split_layout="SPLIT">
           <first_editor relative-caret-position="664">
-            <caret line="178" column="13" lean-forward="false" selection-start-line="178" selection-start-column="13" selection-end-line="178" selection-end-column="13" />
+            <caret line="109" column="14" lean-forward="false" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
